@@ -144,19 +144,20 @@ function App() {
         </div>
         <div className="row">
           <div className="col-12 py-5 text-center">
-            <h1>
-              <i className="bi bi-music-note-list mx-3"></i>
+            <h1 style={{color:"white"}}>
+              <i className="bi bi-music-note-list mx-3" style={{color:"white"}}></i>
               Melodify
             </h1>
-            <h3 className="py-5">Discover music in 30 seconds</h3>
+            <h3 className="py-5" style={{color:"white"}}>Discover music in 30 seconds</h3>
             <div>
               <a
                 target="_blank"
                 rel="noreferrer"
                 className="btn btn-outline-dark"
                 href="https://github.com/Jagat09/Melodify"
+                style={{color:"white"}}
               >
-                <i className="bi bi-github mx-2"></i>Github
+                <i className="bi bi-github mx-2" style={{color:"white"}}></i>Github
               </a>
             </div>
           </div>
